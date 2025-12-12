@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  border-bottom: 1px solid black;
+  background-color: rgb(137, 134, 134);
+}
+
+.nav .user {
+  display: flex;
+  flex-direction: column;
+}

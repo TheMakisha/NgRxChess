@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  border-bottom: 1px solid black;
+  background-color: rgb(137, 134, 134);
+}
+
+.nav .user {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(62, 62, 74, 0.865);
+}
+
+.board {
+  display: inline-grid;
+  border: 1px solid black;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+}
+
+.board img {
+  width: 90%;
+  height: 90%;
+}
+
+.board div {
+  position: relative;
+}
